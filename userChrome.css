@@ -71,7 +71,7 @@ color: #FFFFFF !important; border: 0 !important; }
 border: 0px !important; }
 
 .tab {-moz-appearance: none !important;
-color: #7E7E7E !important;
+color: #DDDDDD !important; /* POD was 7E7E7E  YES THIS ONE! */
 background: #474749 !important;
 border-left: 0px solid rgba(127,127,127) !important;
 border-right: 0px solid rgba(127,127,127) !important;}
@@ -81,9 +81,9 @@ color: #FFFFFF !important;
 border: 0px !important; }
 
 .tab:not(:focus){ -moz-appearance: none !important;
-color: #7E7E7E ;
+color: #7E7E7E ; /* POD was 7E7E7E -- doesn't matter */
 background: #474749 ;
-border-top: 0px solid #0a84ff !important;
+border-top: 0px solid #FF9922 !important;    /* POD my orange */
 border-left: 1px solid rgba(127,127,127) !important;
 border-right: 0px solid rgba(127,127,127) !important;
 border-radius: 0px !important;
@@ -92,7 +92,7 @@ border-bottom-right-radius: 0px !important; }
 
 .tab.selected:not(.highlighted){ color: #FFFFFF !important;
   background: #323234 !important;
-  border-top: 3px solid #0a84ff !important;
+  border-top: 3px solid #FF9922 !important;
   border-left: 0px solid rgba(127,127,127) !important;
   border-right: 0px solid #1d1d1d !important;
   border-radius: 0px !important;
@@ -191,7 +191,7 @@ background: #7E7E7E !important; }
 
 tab[selected="true"] { color: black !important;
 background: #7E7E7E !important;
-border-top: 3px solid #0a84ff !important; }
+border-top: 3px solid #FF9922 !important; }
 
 tab { -moz-appearance: none !important;
 color: #eee !important;
@@ -241,12 +241,12 @@ color: #FFFFFF !important; }
     border: 1px solid #1d1d1d !important;}
 
 .zotero-view-tabbox tab[selected="true"]{ background: #474749 !important;
-border-top: 3px solid #0a84ff !important;}
+border-top: 3px solid #FF9922 !important;}
 
 .zotero-view-tabbox tab { -moz-appearance: none !important;
 color: #eee !important;
 background: #323234 !important;
-border-top: 0px solid #0a84ff !important;
+border-top: 0px solid #FF9922 !important;
 border-left: 0px solid rgba(127,127,127,0.2) !important;
 border-right: 1px solid #1d1d1d !important;
 border-radius: 0px !important;
@@ -261,12 +261,12 @@ background: #7E7E7E !important; }
   .zotero-view-tabbox .zotero-clicky:hover { color: black !important; }
 
 #zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
-border-top: 3px solid #0a84ff !important;}
+border-top: 3px solid #FF9922 !important;}
 
 #zotero-item-pane-content tab { -moz-appearance: none !important;
 color: #eee !important;
 background: #323234 !important;
-border-top: 0px solid #0a84ff !important;
+border-top: 0px solid #FF9922 !important;
 border-left: 0px solid rgba(127,127,127,0.2) !important;
 border-right: 1px solid #1d1d1d !important;
 border-radius: 0px !important;
